@@ -1,30 +1,44 @@
-# React + TypeScript + Vite
+<h1 align="center">
+  Fintech - React
+    <img src="./public/fintech.png" width="700">
+</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 💻 Projeto
+Nessa aplicação foi desenvolvido para aprimorar toda a base do Framework React (Props, Hooks, ContextApi) e tipagem com Typescript.
 
-Currently, two official plugins are available:
+## Startando o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Primeiro, execute o servidor:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Abra [http://localhost:5173](http://localhost:5173) no seu navegador para ver o resultado.
+
+## 👉 TECNOLOGIAS
+
+Este aplicação apresenta algumas das mais recentes ferramentas e práticas em desenvolvimento web!!
+Alguns deles estão listados abaixo.
+
+- ⚛️ [ReactJs](https://react.dev/)
+- 💹 [Typescript](https://www.typescriptlang.org/)
+- 💹 [Recharts](https://recharts.org/en-US/)
+
+
+## Autor
+<a href="#">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/65040481?s=460&u=89ccd5a011db9d8281701ee5ca4f09ac844234c3&v=4" width="100px;" alt=""/>
+ <br/>
+ <sub><b>Edimilson Braz</b></sub></a>🚀
+
+Feito com ❤️ por Edimilson Braz 👋🏽 Entre em contato!
+
+[![Linkedin Badge](https://img.shields.io/badge/-Edimilson-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/edimilsonbraz/)](https://www.linkedin.com/in/edimilsonbraz/) 
+[![Gmail Badge](https://img.shields.io/badge/-edimilson.gt8@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:edimilson.gt8@gmail.com)](mailto:edimilson.gt8@gmail.com)
